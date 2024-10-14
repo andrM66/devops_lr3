@@ -7,6 +7,12 @@ on:
     branches: [ "main" ]
   workflow_call:
 
+  
+defaults:
+  run:
+    working-directory: ./TestServer
+
+
 jobs:
   build:
 
